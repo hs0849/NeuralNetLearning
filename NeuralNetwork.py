@@ -29,7 +29,7 @@ print data
 
 #print colours
 
-plt.scatter(data[:,0], data[:,1],c=data[:,2],marker='o',edgecolors='none')
+plt.scatter(data[:,0], data[:,1],c=data[:,2],marker='x',edgecolors='none')
 
 plt.legend(['class 1'])
 plt.show()
